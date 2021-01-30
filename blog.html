@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <style type="text/css">
+      
+         .button {
+              border: none;
+              
+              
+              font-size: inherit;
+              color: inherit;
+              background: none;
+              cursor: pointer;
+              padding: 6px 30px;
+              display: inline-block;
+              margin: 10px;
+              text-transform: uppercase;
+              letter-spacing: 1px;
+              font-weight: 700;
+              outline: none;
+              position: relative;
+              -webkit-transition: all 0.3s;
+              -moz-transition: all 0.3s;
+              transition: all 0.3s;
+          }
+          .button:after {
+              content: '';
+              position: absolute;
+              z-index: 0;
+              -webkit-transition: all 0.3s;
+              -moz-transition: all 0.3s;
+              transition: all 0.3s;
+          }
+                /* Button 1 */
+          .button-1 {
+               border: 3px solid #fff;
+               color: #fff;
+          }
+          .carousel-inner img {
+          width: 100%;
+          height: 500px;
+          }
+
+        .button-1f {
+        overflow: hidden;
+        }
+
+        .button-1f:after {
+            width: 100%;
+            height: 0;
+            top: 50%;
+            left: 50%;
+            background: #fff;
+            opacity: 0;
+            -webkit-transform: translateX(-50%) translateY(-50%);
+            -moz-transform: translateX(-50%) translateY(-50%);
+            -ms-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+        }
+        .button-1f:hover,
+        .button-1f:active {
+            color: #0e83cd;
+        }
+        .button-1f:hover:after {
+            height: 104%;
+            opacity: 1;
+            
+        }
+        .button-1f:active:after {
+            height: 130%;
+            opacity: 1;
+        }
+
+        hr.new5 {
+          border: 5px solid white;
+          border-radius: 1px;
+        }
+
+        .card1{
+          width: 459px;
+
+
+        }
+        .img1 {
+            width: 153px;
+            height: 114px;
+        }
+
+
+        .cc1{
+          margin-left: 60px;
+          
+          
+          position: relative;
+        }
+        
+
+        .img-cont img{
+          width: 95% ;
+          height : 255px;
+        } 
+        .img-cont{
+          margin-left: 60px;
+        }
+
+        .foot1 a{
+          color: black;
+          text-decoration: none;
+          padding: 5px;
+        }
+
+        
+        .foot1 a:hover {
+            color: green;
+            text-decoration: none;
+          }
+
+          .card-body{
+            background-color: #CDCACA;
+          }
+
+
+          @media(max-width: 786px) {
+            
+              .cc1{
+                margin-left: 0px;
+              }
+
+
+          }
+          
+        
+        
+
+
+    </style>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Blogging</title>
+  </head>
+
+
+
+  <body style="background-color: #EFECEC;">
+
+<div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-gray ">
+        <a class="navbar-brand m-2" href="#"><h1 style="font-size: 60px;">Blogging</h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            
+              
+            </li>
+            
+          </ul>
+          <form class="form-inline my-2 my-lg-0" style="padding: 10px;">
+            <a class="btn btn-dark btn-outline my-2 my-sm-0 scbtn" href="getstrted.html">Get Started</a>
+            <input class="form-control mr-sm-2" type="search" placeholder="Gogle Search" aria-label="Search">
+            
+          </form>
+      </nav>
+</div>
+
+
+
+
+
+
+<div id="carouselExampleControls" class="carousel slide border border-light" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/img1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/img2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/img3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+</div>
+        <div style="background-color: black;">
+          <div class="text-center">
+            
+          
+              <button type="button" class="button button-1 button-1f">Home</button>
+              <button type="button" class="button button-1 button-1f">Nation</button>
+              <button type="button" class="button button-1 button-1f">Sports</button>
+              <button type="button" class="button button-1 button-1f">Politics</button>
+              <button type="button" class="button button-1 button-1f">Entertainments</button>
+              <button type="button" class="button button-1 button-1f">Search</button>
+              <button type="button" class="button button-1 button-1f">Contactus</button>
+
+    
+        </div>
+        </div>
+
+  
+
+  <div>
+    <hr class="new5">
+  </div>
+
+
+  <div class="cc1" >
+            
+            <div class="float-left">   
+                <div class="card card1">
+                  <div class="card-body">
+                    <img class="card-img-bottom" src="images/img4.jpg" alt="Card image cap">
+                    <h5 class="card-title">Should Twitter Get Rid of Follower Counts?</h5>
+                    <p class="card-text">The possibility feels closer than ever</p>
+                    <p class="card-text">Cool Neha in All Things Creative</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+            </div>
+            <div class="float-left">
+                  <div class="card" style="width: 450px;height: 115px;">
+                      <div class="card-body">
+                        <img src="images/img4.jpg" style="height: 68px;width: 123px;" alt=".." class="float-left">
+                        <p>This text appears next to the image.</p> 
+                      </div>
+                   </div>
+
+                   <div class="card"style="width: 450px;height: 115px;">
+                      <div class="card-body">
+                        <img src="images/img4.jpg" style="height: 68px;width: 123px;" alt=".." class="float-left">
+                        <p>This text appears next to the image.</p> 
+                      </div>
+                   </div>
+
+                   <div class="card"style="width: 450px;height: 115px;">
+                      <div class="card-body">
+                        <img src="images/img4.jpg" style="height: 68px;width: 123px;" alt=".." class="float-left">
+                        <p>This text appears next to the image.</p> 
+                      </div>
+                   </div>
+
+                   <div class="card"style="width: 450px;height: 115px;">
+                      <div class="card-body">
+                        <img src="images/img4.jpg" style="height: 68px;width: 123px;" alt=".." class="float-left">
+                        <p>This text appears next to the image.</p> 
+                      </div>
+                   </div>
+
+             </div>
+              
+                <div class="card card1">
+                  <div class="card-body">
+                    <img class="card-img-bottom" src="images/img4.jpg" alt="Card image cap">
+                    <h5 class="card-title">Should Twitter Get Rid of Follower Counts?</h5>
+                    <p class="card-text">The possibility feels closer than ever</p>
+                    <p class="card-text">Cool Neha in All Things Creative</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+            
+    </div>
+
+
+
+
+  <div class="another">
+    <hr class="new5">
+  </div>
+
+  <div class="img-cont">
+    <img src="images/img5.jpg" class="img-fluid" alt="Responsive image">
+  </div> 
+
+  <div class="another">
+    <hr class="new5">
+  </div>
+
+    <div class="cc1" >
+            
+            <div class="float-left">   
+                <div class="card card1">
+                  <div class="card-body">
+                    <img class="card-img-bottom" src="images/img4.jpg" alt="Card image cap">
+                    <h5 class="card-title">Should Twitter Get Rid of Follower Counts?</h5>
+                    <p class="card-text">The possibility feels closer than ever</p>
+                    <p class="card-text">Cool Neha in All Things Creative</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+            </div>
+            <div class="float-left">
+                  <div class="card" style="width: 450px;height: 115px;">
+                      <div class="card-body">
+                        <img src="images/img4.jpg"  style="height: 68px;width: 123px;" alt=".." class="float-left">
+                        <p>This text appears next to the image.</p> 
+                      </div>
+                   </div>
+
+                   <div class="card"style="width: 450px;height: 115px;">
+                      <div class="card-body">
+                        <img src="images/img4.jpg" style="height: 68px;width: 123px;" alt=".." class="float-left">
+                        <p>This text appears next to the image.</p> 
+                      </div>
+                   </div>
+
+                   <div class="card"style="width: 450px;height: 115px;">
+                      <div class="card-body">
+                        <img src="images/img4.jpg" style="height: 68px;width: 123px;" alt=".." class="float-left">
+                        <p>This text appears next to the image.</p> 
+                      </div>
+                   </div>
+
+                   <div class="card"style="width: 450px;height: 115px;">
+                      <div class="card-body">
+                        <img src="images/img4.jpg" style="height: 68px;width: 123px;" alt=".." class="float-left">
+                        <p>This text appears next to the image.</p> 
+                      </div>
+                   </div>
+
+             </div>
+              
+                <div class="card card1">
+                  <div class="card-body">
+                    <img class="card-img-bottom" src="images/img4.jpg" alt="Card image cap">
+                    <h5 class="card-title">Should Twitter Get Rid of Follower Counts?</h5>
+                    <p class="card-text">The possibility feels closer than ever</p>
+                    <p class="card-text">Cool Neha in All Things Creative</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+            
+    </div>
+
+ <div class="another">
+    <hr class="new5">
+  </div>
+
+<!-- Footer   -->
+<footer class="page-footer font-small stylish-color-dark ">
+
+            <div class="text-center foot1">
+              <a href="about.html">About Us</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Newsletter</a>
+              <a href="#">Site map</a>
+
+            
+          </div>
+          <div class="text-center"><p style="color: black;">Follow on </p> 
+
+          <ul class="list-unstyled list-inline text-center">
+              <li class="list-inline-item">
+                <a class="btn-floating btn-fb mx-1">
+                  <i class="fab fa-facebook-f"> </i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-tw mx-1">
+                  <i class="fab fa-twitter"> </i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-gplus mx-1">
+                  <i class="fab fa-google-plus-g"> </i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-li mx-1">
+                  <i class="fab fa-linkedin-in"> </i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-dribbble mx-1">
+                  <i class="fab fa-dribbble"> </i>
+                </a>
+              </li>
+            </ul>
+            <!-- Social buttons -->
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3 " style="background-color: black;">© 2020 Copyright:
+              <a href="https://mdbootstrap.com/"> MYanub.com</a>
+            </div>
+
+</footer>   
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
